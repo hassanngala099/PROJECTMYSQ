@@ -1,2 +1,4 @@
 git push origin master -f
  mv Templates templates #renaming a folder/directory on cmd
+db.html  login.html #removing files from directory
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<table>
+
+		<tr>
+			<th>cargo_type</th>	
+			<th>Commodity </th>
+			<th>WOID </th>
+		</tr>
+
+
+
+		{% for items in data %}
+		<tr>
+			<td>{{ items[0] }}</td>
+			<td>{{ items[1] }}</td>
+			<td>{{ items[2] }}</td>	
+	    </tr>
+	    <!-- {{ data[1][1]}}-->
+	    {% endfor %}
+
+
+
+
+    </table>
+    <!--{{data}}-->
+</body>
+</html>
